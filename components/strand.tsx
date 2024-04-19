@@ -20,9 +20,9 @@ const Strand = ({ title, paragraph, image }: StrandProps) => {
         <Image
           src={image}
           alt="strand image"
-          width={500}
-          height={500}
-          className="w-full h-full rounded-lg md:p-0 p-16 "
+          width={400}
+          height={400}
+          className="w-full h-full rounded-lg md:p-0 p-8 "
         />
       </div>
     </div>
