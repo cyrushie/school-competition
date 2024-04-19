@@ -24,7 +24,7 @@ const ThemesButton = () => {
       <DropdownMenuTrigger asChild>
         <Button className="rounded-xl">Themes</Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="md:start">
+      <DropdownMenuContent>
         <Card className="w-[300px]">
           <CardHeader>
             <CardTitle>Themes</CardTitle>
