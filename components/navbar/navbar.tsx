@@ -15,10 +15,6 @@ const Navbar = () => {
     const scrollYPos = window.addEventListener("scroll", () => {
       window.scrollY > 50 ? setHeader(true) : setHeader(false);
     });
-
-    return () => {
-      window.removeEventListener("scroll", scrollYPos);
-    };
   }, [header]);
 
   return (
