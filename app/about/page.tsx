@@ -22,10 +22,10 @@ const AboutPage = () => {
         open up many exciting career opportunities in different industries.
       </p>
       {loaded || (
-        <Skeleton className="mx-auto w-[400px] mt-16 h-[225px] rounded-md" />
+        <Skeleton className="mx-auto mt-16 w-[90%] h-[225px] max-w-[400px] max-h-[225px] rounded-md" />
       )}
       <div
-        className={`mx-auto mt-16 w-[400px] h-[400px] ${
+        className={`mx-auto mt-16 w-[90%]  max-w-[400px] max-h-[400px] ${
           loaded ? "block" : "hidden"
         }`}
       >
