@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className="max-container h-[6rem] flex justify-between items-center">
       <div className="font-semibold text-lg flex space-x-2 items-center">
-        <Image src="/logo.png" width={30} height={30} />
+        <Image alt="bsanhs logo" src="/logo.png" width={30} height={30} />
         <h1>BSANHS</h1>
       </div>
 

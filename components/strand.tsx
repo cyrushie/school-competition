@@ -3,7 +3,7 @@ import Image from "next/image";
 interface StrandProps {
   title: string;
   paragraph: string;
-  image?: string;
+  image: string;
 }
 
 const Strand = ({ title, paragraph, image }: StrandProps) => {
@@ -19,6 +19,7 @@ const Strand = ({ title, paragraph, image }: StrandProps) => {
       <div className="flex-1 rounded-lg overflow-hidden">
         <Image
           src={image}
+          alt="strand image"
           width={500}
           height={500}
           className="w-full h-full rounded-lg md:p-0 p-16 "
